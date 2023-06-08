@@ -15,6 +15,10 @@
         "dest": "index.js"
       },
       {
+        "src": "/add",
+        "dest": "public/dist/index.html"
+      },
+      {
         "src": "/",
         "dest": "public/dist/index.html"
       },
