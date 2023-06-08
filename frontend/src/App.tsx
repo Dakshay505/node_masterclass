@@ -23,7 +23,7 @@ function App() {
   const [products, setProducts] = useState<Product[] | []>([]);
   useEffect(() => {
     const func = async () => {
-      const { data } = await axios.get("http://localhost:5050/api/v1/users");
+      const { data } = await axios.get("/api/v1/users");
       console.log(data.users);
       setProducts(data.users);
     };

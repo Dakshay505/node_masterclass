@@ -19,7 +19,7 @@ const Add = () => {
 
   const handleSubmit =async (e:any) => {
     e.preventDefault();
-   const resp= await axios.post("http://localhost:5050/api/v1/user/new",formData);
+   const resp= await axios.post("/api/v1/user/new",formData);
    setFormData({
     title: '',
     price: '',
